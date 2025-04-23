@@ -97,6 +97,7 @@ export default function EventGallery() {
                     alt={`${selectedEvent.title} ${currentImageIndex + 1}`}
                     className="modal-image"
                   />
+
                 ) : (
                   <div className="no-image-placeholder">No image</div>
                 )}
